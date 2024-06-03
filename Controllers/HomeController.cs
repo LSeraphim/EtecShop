@@ -21,8 +21,8 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         HomeVM homeVM = new() {
-            Categorias = _context.Categoria.ToList(),
-            Produtos = _context.Produto.Include(p => p.Categoria).ToList()
+            Categorias = _context.Categorias.ToList(),
+            Produtos = _context.Produtos.Include(p => p.Categoria).ToList()
         };
         return View(homeVM);
     }
