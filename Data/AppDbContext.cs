@@ -10,6 +10,7 @@ namespace EtecShop.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
+        public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Avaliacao> Avaliacoes {get; set;}
         public DbSet<Categoria> Categorias {get; set;}
         public DbSet<Produto> Produtos {get; set;}
@@ -17,6 +18,7 @@ namespace EtecShop.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+            
             #region Populando os dados da Gestão de Usuários
             List<IdentityRole> roles = new()
             {
