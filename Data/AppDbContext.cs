@@ -116,7 +116,7 @@ namespace EtecShop.Data
                     Preco = 34.99M,
                     Estoque = 10,
                     CategoriaId = 1,
-                    Foto = "/img;produtos/1.png"
+                    Foto = "/img/produtos/1.png"
                 },
                 new Produto(){
                     Id = 2,
@@ -125,7 +125,7 @@ namespace EtecShop.Data
                     Preco = 144.54M,
                     Estoque = 23,
                     CategoriaId = 1,
-                    Foto = "/img;produtos/2.png"
+                    Foto = "/img/produtos/2.png"
                 },
                 new Produto(){
                     Id = 3,
@@ -134,7 +134,7 @@ namespace EtecShop.Data
                     Preco = 3699.99M,
                     Estoque = 6,
                     CategoriaId = 2,
-                    Foto = "/img;produtos/3.png"
+                    Foto = "/img/produtos/3.png"
                 },
                 new Produto(){
                     Id = 4,
@@ -143,7 +143,7 @@ namespace EtecShop.Data
                     Preco = 221.11M,
                     Estoque = 30,
                     CategoriaId = 2,
-                    Foto = "/img;produtos/4.png"
+                    Foto = "/img/produtos/4.png"
                 },
                 new Produto(){
                     Id = 5,
@@ -152,7 +152,7 @@ namespace EtecShop.Data
                     Preco = 1439.10M,
                     Estoque = 17,
                     CategoriaId = 3,
-                    Foto = "/img;produtos/5.png"
+                    Foto = "/img/produtos/5.png"
                 },
                 new Produto(){
                     Id = 6,
@@ -161,7 +161,7 @@ namespace EtecShop.Data
                     Preco = 524.10M,
                     Estoque = 4,
                     CategoriaId = 7,
-                    Foto = "/img;produtos/6.png"
+                    Foto = "/img/produtos/6.png"
                 },
                 new Produto(){
                     Id = 7,
@@ -170,7 +170,7 @@ namespace EtecShop.Data
                     Preco = 699M,
                     Estoque = 40,
                     CategoriaId = 4,
-                    Foto = "/img;produtos/7.png"
+                    Foto = "/img/produtos/7.png"
                 },
                 new Produto(){
                     Id = 8,
@@ -179,7 +179,7 @@ namespace EtecShop.Data
                     Preco = 2166.03M,
                     Estoque = 4,
                     CategoriaId = 5,
-                    Foto = "/img;produtos/8.png"
+                    Foto = "/img/produtos/8.png"
                 }
             };
             builder.Entity<Produto>().HasData(produtos);
